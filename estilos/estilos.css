@@ -1,5 +1,12 @@
-.slider{
-    background: url("/img/banner.png");
+.banner1{
+    background: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.banner2{
+    background: url("../img/blog2.png");
     background-size: cover;
     background-position: center;
     height:100vh;
