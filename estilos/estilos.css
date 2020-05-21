@@ -6,10 +6,17 @@
 }
 
 .banner2{
-    background: url("../img/Tecno-blog.png");
+    background: url("../img/banner2.1.jpg");
     background-size: cover;
     background-position: center;
-    height:400px;
+    height:100vh;
+}
+
+.banner3{
+    background: url("../img/banner3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
 }
 
 .font-s{
