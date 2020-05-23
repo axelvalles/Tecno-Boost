@@ -19,6 +19,13 @@
     height:100vh;
 }
 
+.banner4{
+    background: url("../img/banner4.png");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
 .font-s{
     font-size: 0.7rem;
 }

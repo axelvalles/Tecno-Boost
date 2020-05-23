@@ -36,7 +36,6 @@
     <!--fin-menu-->
     <!--banner-->
     <div class="container-fluid banner1 d-flex flex-column justify-content-center align-items-center mb-5">
-        <div class="w100 mb-5 d-block d-md-none"></div>
         <div class="text-center text-white">
             <h3 class="d-none d-md-block">¿Internet - Desarrollo web?</h3>
             <h1 class="display-4">Tecno-Boost</h1>
@@ -64,7 +63,7 @@
         <hr class="">
         <div class="row">
             <!--Articulos-->
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-10">
                 <!--1-Articulo-->
                 <div class="row mb-5">
                     <div class="col-3">
@@ -89,7 +88,7 @@
                 <div class="row mb-5">
                     <div class="col-3">
                         <img src="./img/lenguajes4.jpg" alt="" class="img-fluid">
-                        <p class="font-s">19/05/2020</p>
+                        <p class="font-s">21/05/2020</p>
                         <hr>
                     </div>
                     <div class="col-9">
@@ -109,54 +108,31 @@
                 <div class="row mb-5">
                     <div class="col-3">
                         <img src="./img/boostrap.jpg" alt="" class="img-fluid">
-                        <p class="font-s">19/05/2020</p>
+                        <p class="font-s">23/05/2020</p>
                         <hr>
                     </div>
                     <div class="col-9">
-                        <a href="#">
+                        <a href="paginas/boostrap.html">
                             <h4>¿Que es Boostrap?</h4>
                         </a>
                         <p>A lo largo de los últimos años hemos visto un gran cambio en
                             la web cada vez más y más dispositivos tienen la posibilidad
                             de tener un navegador, lo que vuelve más complejo el hecho de
                             crear un sitio que se vea bien en cualquier pantalla.
-                            Podemos decir que en el mundo de la informática cada problema...
                         </p>
-                        <a href="#" class="btn btn-outline-warning btn-sm">Leer mas...</a>
+                        <a href="paginas/boostrap.html" class="btn btn-outline-warning btn-sm">Leer mas...</a>
                     </div>
                 </div>
                 <!--fin-1-Articulo-->
 
             </div>
             <!--Aside-bar-->
-            <div class="d-none col-md-3"> <!--recodar poner el d-md-block-->
-                <!--cards-->
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">¿El primer lenguaje?</div>
-                    <div class="card-body">
-                        <p class="card-text">Plankalkül es considerado como el
-                            primer lenguaje de programación de alto nivel. Plankalkül, fue creado entre 1942 y 1946
-                            por un ingeniero alemán llamado Konrad Zuse.</p>
-                    </div>
-                </div>
-                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Codigo</div>
-                    <div class="card-body">
-                        <p class="card-text">Si precionas f12 o click derecho sobre la paginas
-                            y depues inspeccionar elemento podras ver detalladamente
-                            el codigo de los sitios web.
-                        </p>
-                    </div>
-                </div>
-                <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-                    <div class="card-header">¿Responsive?</div>
-                    <div class="card-body">
-                        <p class="card-text">Esta técnica es una de las más utilizadas
-                            en la actualidad, permitiéndonos hacer que nuestros sitios
-                            web puedan adaptarse a cualquier dispositivo móvil o desktop.</p>
-                    </div>
-                </div>
-                <!--fin-cards-->
+            <div class="d-none">
+                
+                <!--Recordar agregar contenido a el asidebar-->
+                <!--Posiblemente un buscador de articulos-->
+            
+            </div>
             </div>
             <!--fin-Aside-bar-->
         </div>
@@ -165,14 +141,14 @@
         <div class="row justify-content-center mb-2">
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group mr-2" role="group" aria-label="First group">
-                    <button type="button" class="btn btn-secondary">Inicio</button>
-                    <button type="button" class="btn btn-secondary">1</button>
-                    <button type="button" class="btn btn-secondary">2</button>
-                    <button type="button" class="btn btn-secondary">3</button>
-                    <button type="button" class="btn btn-secondary">4</button>
-                    <button type="button" class="btn btn-secondary">5</button>
-                    <button type="button" class="btn btn-secondary">6</button>
-                    <button type="button" class="btn btn-secondary">Fin</button>
+                    <button type="button" class="btn btn-info active" disabled>Inicio</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">1</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">2</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">3</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">4</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">5</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">6</button>
+                    <button type="button" class="btn btn-info"data-toggle="modal" data-target="#modal">Fin</button>
                 </div>
             </div>
         </div>
@@ -181,8 +157,30 @@
     </div>
     <!--fin-main-->
     <footer class="container-fluid bg-dark text-white py-2 text-center">
-        <p class="ml">by: Axel Valles y Enmanuel Alviarez</p>
+        <p>by: Axel Valles y Enmanuel Alviarez</p>
     </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-info">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                <p class="lead">Proximamente tendremos mas articulos....</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---fin-modal-->
 
 
 
