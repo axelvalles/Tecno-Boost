@@ -1,12 +1,12 @@
 .banner1{
-    background: url("../img/banner.png");
+    background: url("../img/banner1.jpg");
     background-size: cover;
     background-position: center;
     height:100vh;
 }
 
 .banner2{
-    background: url("../img/banner2.1.jpg");
+    background: url("../img/banner2.jpg");
     background-size: cover;
     background-position: center;
     height:100vh;
